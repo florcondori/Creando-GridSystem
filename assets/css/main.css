@@ -8,6 +8,27 @@ h1{
 	text-align: center;
 }
 
+ul{
+	margin-top: 1rem;
+	text-decoration: none;
+	text-align: center;
+	font-size: 24px;
+}
+
+ul li{
+	height: 4rem;
+	padding: 1rem;
+}
+
+a{
+	color: gray;
+}
+
+li:hover{
+	background: #DAD5D5;
+	color: #4C4848;
+}
+
 .container{	
 	border: 5px solid rgba(191,187,187,.8);
 	margin: 1rem auto;
