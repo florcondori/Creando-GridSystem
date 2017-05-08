@@ -4,6 +4,10 @@
 	padding: 0;
 }
 
+h1{
+	text-align: center;
+}
+
 .container{	
 	border: 5px solid rgba(191,187,187,.8);
 	margin: 0 auto;
@@ -16,6 +20,7 @@
 [class*="col-"]{
 	border: 1px solid #3e3e3e;
 	float: left;
+	border: 5px solid white;
 }
 
 .col-1{
@@ -70,7 +75,14 @@
 	height: 400px;
 }
 
+.height600{
+	height: 600px;
+}
+
 .bg-gray{
 	background: gray;
-	border: 5px solid white;
+}
+
+.bg-lightgray{
+	background: lightgray;
 }
