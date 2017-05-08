@@ -5,15 +5,17 @@
 }
 
 .container{	
+	border: 5px solid rgba(191,187,187,.8);
 	margin: 0 auto;
 	max-width: 1200px;
+	overflow: auto;
+	padding: 2rem;
 	width: 100%;
 }
 
-
 [class*="col-"]{
-	float: left;
 	border: 1px solid #3e3e3e;
+	float: left;
 }
 
 .col-1{
@@ -62,4 +64,13 @@
 
 .col-12{
 	width: 100%;
+}
+
+.height400{
+	height: 400px;
+}
+
+.bg-gray{
+	background: gray;
+	border: 5px solid white;
 }
