@@ -10,7 +10,7 @@ h1{
 
 .container{	
 	border: 5px solid rgba(191,187,187,.8);
-	margin: 0 auto;
+	margin: 1rem auto;
 	max-width: 1200px;
 	overflow: auto;
 	padding: 2rem;
